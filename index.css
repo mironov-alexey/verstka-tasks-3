@@ -1,31 +1,31 @@
-a.logo {
+#timetable .logo {
     display: block;
     height: 30px;
     width: 110px;
     border: 1px solid black;
 }
 
-a.britishairways {
+#timetable .britishairways {
     background-image: url(http://www.koltsovo.ru/attels/logo4site/59.gif);
 }
 
-a.s7 {
+#timetable .s7 {
     background-image: url(http://www.koltsovo.ru/attels/logo4site/390.gif);
 }
 
-a.aeroflot {
+#timetable .aeroflot {
     background-image: url(http://www.koltsovo.ru/attels/logo4site/397.gif);
 }
 
-a.uralairlines {
+#timetable .uralairlines {
     background-image: url(http://www.koltsovo.ru/attels/logo4site/416.gif);
 }
 
-a.airfrance {
+#timetable .airfrance {
     background-image: url(http://www.koltsovo.ru/attels/logo4site/2251.gif);
 }
 
-a.utair {
+#timetable .utair {
     background-image: url(http://www.koltsovo.ru/attels/logo4site/515.gif);
 }
 
@@ -65,7 +65,6 @@ a.utair {
 tr:nth-child(even) td:after {
     background: #579dfa;
 }
-
 tr:nth-child(odd) td:after {
     background: #db7093;
 }
@@ -86,19 +85,19 @@ tr:nth-child(odd) td:after {
     z-index: -1;
 }
 
-input {
+#send-info input {
     width: 300px;
     margin-bottom: 20px;
     font-size: 30px;
 }
 
-input[type="tel"]:valid,
-input[type="email"]:valid {
+#send-info input[type="tel"]:valid,
+#send-info input[type="email"]:valid {
     background: #98fb98;
 }
 
-input[type="tel"]:invalid,
-input[type="email"]:invalid {
+#send-info input[type="tel"]:invalid,
+#send-info input[type="email"]:invalid {
     background: #ffc4be;
 }
 
@@ -113,3 +112,4 @@ input[type="email"]:invalid {
 #send-info label {
     font-size: 30px;
 }
+
